@@ -9,6 +9,7 @@ makeTitle("header");
 makeMenu("menu");
 makeFooter();
 setContentTopMargin();
+//update
 }
 function resize()
 {
