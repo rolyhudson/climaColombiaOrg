@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<!-- HTML5 Boilerplate -->
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+
+<head>
+
+    <meta charset="utf-8">
+    <!-- Always force latest IE rendering engine & Chrome Frame -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+    <title>clima-colombia</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+
+    <meta name="author" content="www.clima-colombia.org">
+
+    <meta http-equiv="cleartype" content="on">
+
+    <link rel="shortcut icon" href="/favicon.ico">
+
+    <!-- Responsive and mobile friendly stuff -->
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="..\..\d3\d3.v4.min.js"></script>
+    <script src="..\..\d3\topojson.v2.min.js"></script>
+    <script src="..\..\d3\d3-scale-chromatic.v1.min.js"></script>
+        
+        <script src = "griddedweather.js" ></script>
+        <script src = "chartTools.js" ></script>
+        <script src = "psychrometricTools.js" ></script>
+        <script src = "pmvppdFunction.js" ></script>
+        <script src = "..\..\fns.js" ></script>
+        <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Droid Sans Mono">
+        <link href="https://fonts.googleapis.com/css?family=EB+Garamond" rel="stylesheet">
+        <link rel="stylesheet" href="..\..\cc.css" media="all">
+        <style type="text/css">
+            
+            .line { 
+            stroke: steelblue;
+            stroke-width: 0;
+            fill: none;
+            }
+            
+            #scale{
+              position: absolute;
+                top:10px;
+              z-index: 10;
+            }
+            #chart{
+                position: relative;
+            }
+             #content{
+                font-size: small;
+             } 
+           
+          
+            h3{
+                display:inline;
+            }
+        </style>
+       
+    </head>
+    <body>
+    <div id = "container">
+    <div id="header">
+    <div id="menu"></div>   
+    </div>
+    <div id="content">
+        <div id = "title"> <p><a href="#datasources">Data sources</a></p></div>
+        
+         <div id = "description"> </div>
+         
+        <div id = "chart">
+            <div id = "scale"></div>
+        </div>
+        <div id = "control"></div>
+        
+        
+        <div id = "info"> 
+        
+        <h3>References and sources consulted</h3><a name="datasources"></a> 
+        <p>Colombia weather dataset is sourced from 
+        <a href="http://www.cgiar-csi.org/data/uea-cru-ts-v3-10-01-historic-climate-database">CRU-TS v3.10.01 Historic Climate Database for GIS</a> and combined with elevation data from 
+        
+        <a href="http://www.cgiar-csi.org/data/srtm-90m-digital-elevation-database-v4-1">SRTM 90m Digital Elevation Database v4.1</a></p>
+        <p>The dataset represents monthly averages from 1999-2009</p>
+        <p><a href ="weaMonthlyjson.json">Download </a>the gridded data set for Colombia in json format</p>
+        <p>We acknowledge the E-OBS dataset from the EU-FP6 project ENSEMBLES (http://ensembles-eu.metoffice.com) and the data providers in the ECA&D project (http://www.ecad.eu)
+        Haylock, M.R., N. Hofstra, A.M.G. Klein Tank, E.J. Klok, P.D. Jones, M. New. 2008: A European daily high-resolution gridded dataset of surface temperature and precipitation. J. Geophys. Res (Atmospheres), 113, D20119, doi:10.1029/2008JD10201 <a href="http://www.ecad.eu/download/ensembles/ensembles.php">E-OBS gridded dataset</a></p>
+        <p>Graphics created using <a href="https://d3js.org/">D3.js</a></p>
+        <p>Teuling, A.J., Stockli, R. and Seneviratne, S.I., 2011. Bivariate colour maps for visualizing climate data. International Journal of Climatology, 31(9), pp.1408-1412.</p>
+        <p>Trumbo, B.E., 1981. A theory for coloring bivariate statistical maps. The American Statistician, 35(4), pp.220-226.</p>
+        <p>Robertson, P.K. and O'Callaghan, J.F., 1986. The generation of color sequences for univariate and bivariate mapping. IEEE Computer Graphics and Applications, 6(2), pp.24-32.</p>
+        <p><a href="http://scottburns.us/subtractive-color-mixture/">Subtractive Color Mixture Computation</a><p>
+        </div>
+    </div>
+    <div id="footer"></div>
+</div>
+        
+        <script type="text/javascript">
+        makePage();
+        runTool();
+        </script>
+    </body>
+</html>  

@@ -1,0 +1,166 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "id":"http://www.eco-envolventes.net/climaschema/climaJSONEPWfields.json#",
+    "title": "clima JSON extended to support epw data",
+    "description": "clima JSON extended to support epw data",
+    "type": "object",
+    "properties":{
+        "groundTemperatures":{
+            "description": "undisturbed ground temperatures based on temperatures",
+            "type": "object",
+            "properties":{
+                "numberOfGroundTempDepths":{
+                    "description": "number of depths recorded",
+                    "type":"integer"
+                },
+
+                "depthData":{
+                    "description": "one of these for each depth",
+                    "type": "array",
+                    "items":{
+                        "type":{"#ref":"#/definitions/soilDepthData"}
+                        }
+                    }
+                }
+            },
+        "designConditions":{
+            "description": "Only those design conditions contained in the ASHRAE Handbook of Fundamentals 2009 are contained",
+            "type": "object",
+            "properties":{
+                    "numberOfConditions":{
+                        "type":"integer"
+                    },
+                    "conditionSource":{
+                        "type":"string"
+                    },
+                    "conditions":{
+                        "description": "one object per condition",
+                        "type":"array",
+                        "items":{
+                            "type":{"#ref":"#/definitions/designCondition"}
+                        }
+                    }
+                }
+            },
+        "typicalExtremePeriods":{
+            "description": "details of extreme conditons",
+            "type": "object",
+            "properties":{
+                    "numberOfExtremePeriods":{
+                        "type":"integer"
+                    },
+                    
+                    "conditions":{
+                        "description": "one object per extreme period",
+                        "type":"array",
+                        "items":{
+                            "type":{"#ref":"#/definitions/extremePeriod"}
+
+                        }
+                    }
+                }
+            },
+        "holidaysDaylightSaving":{
+            "description": "details the start and end dates of Daylight Saving Time and other special days",
+            "type": "object",
+            "properties":{
+                "leapYear":{
+                    "type": "boolean"
+                    },
+                "daylightSavingStartDay":{
+                    "type": "integer"
+                    },
+                "daylightSavingEndDay":{
+                    "type": "integer"
+                    },
+                "numberHolidays":{
+                    "type": "integer"
+                    },
+                "holidayNames":{
+                    "type": "array",
+                    "items":{
+                        "type":"string"
+                        }
+                    },
+                "holidayDays":{
+                    "type": "array",
+                    "items":{
+                        "type":"integer"
+                        }
+                    }
+                }
+            },
+        "comments":{
+            "description": "epw provides 2 comments",
+            "type": "array",
+                "items":{
+                    "type":"string"
+                },
+            "maxItems": 2  
+        }
+    },
+    "definitions":{
+        "extremePeriod": {
+            "properties":{
+                "name":{
+                    "description": "Extreme period name",
+                    "type":"string"
+                },
+                "typeOfExtreme":{
+                    "description": "Extreme period type",
+                    "type":"string"
+                },
+                "startDay":{
+                    "description": "Extreme period start day",
+                    "type":"integer"
+                },
+                "endDay":{
+                    "description": "Extreme period end day",
+                    "type":"integer"
+                }
+            },
+            "required":["name","typeOfExtreme","startDay","endDay"]
+            },
+        "designCondition": {
+            "properties":{
+                "conditionName":{
+                    "description": "maybe COOLING or HEATING",
+                    "type":"string"
+                },
+                "values":{
+                    "type":"array",
+                    "items":{
+                        "description": "design condition values",
+                        "type":"number"
+                        }
+                }
+                }
+            },
+        "soilDepthData": {
+            "properties":{
+                "soilConductivity":{
+                    "description": "units are W/m-K",
+                    "type":"number"
+                    },
+                "soilDensity":{
+                    "description": "units are kg/m3",
+                    "type":"number"
+                    },
+                "soilSpecifcHeat":{
+                    "description": "units are J/kg-K",
+                    "type":"number"
+                    },
+                "soilTempValues":{
+                    "description": "average ground temperatures in C one per month of the year",
+                    "type": "array",
+                    "items":{
+                        "type":"number"
+                        },
+                    "minItems": 12,
+                    "maxItems": 12
+                    }
+                }
+            }
+
+    }
+}

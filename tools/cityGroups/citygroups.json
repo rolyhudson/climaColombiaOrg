@@ -1,0 +1,874 @@
+{
+  "cities": [
+    {
+      "name": "LETICIA",
+      "ele": 144.09,
+      "lat": -3.9867,
+      "lon": -69.9470748911655,
+      "stations": [
+        {
+          "code": 824110,
+          "name": "TABATINGA",
+          "ele": 85.0,
+          "lat": -4.256,
+          "lon": -69.936
+        },
+        {
+          "code": 803980,
+          "name": "ALFREDO VASQUEZ COBO",
+          "ele": 84.4,
+          "lat": -4.193,
+          "lon": -69.943
+        },
+        {
+          "code": 48015010,
+          "name": "A VASQUEZ COBO [48015010]",
+          "ele": 84.0,
+          "lat": -4.193861111111,
+          "lon": -69.940916666667
+        }
+      ]
+    },
+    {
+      "name": "MEDELLÍN",
+      "ele": 1469.15,
+      "lat": 6.25128995462448,
+      "lon": -75.5759735041668,
+      "stations": [
+        {
+          "code": 27015330,
+          "name": "OLAYA HERRERA - AUTOM (27015330)",
+          "ele": 1490.0,
+          "lat": 6.220611111111,
+          "lon": -75.588980555556
+        },
+        {
+          "code": 801100,
+          "name": "OLAYA HERRERA",
+          "ele": 1505.7,
+          "lat": 6.22,
+          "lon": -75.591
+        },
+        {
+          "code": 27015310,
+          "name": "METROMEDELLIN    [27015310]",
+          "ele": 1440.0,
+          "lat": 6.32975,
+          "lon": -75.552111111111
+        }
+      ]
+    },
+    {
+      "name": "ARAUCA",
+      "ele": 129.0,
+      "lat": 7.08993207472309,
+      "lon": -70.759887688876,
+      "stations": [
+        {
+          "code": 800990,
+          "name": "SANTIAGO PEREZ",
+          "ele": 128.0,
+          "lat": 7.069,
+          "lon": -70.737
+        },
+        {
+          "code": 804480,
+          "name": "GUASDUALITO",
+          "ele": 129.8,
+          "lat": 7.211,
+          "lon": -70.756
+        },
+        {
+          "code": 37055010,
+          "name": "APTO ARAUCA [37055010]",
+          "ele": 128.0,
+          "lat": 7.069444444444,
+          "lon": -70.738055555556
+        }
+      ]
+    },
+    {
+      "name": "RIOHACHA",
+      "ele": 10.0,
+      "lat": 11.5438439676894,
+      "lon": -72.9114713534895,
+      "stations": [
+        {
+          "code": 15065180,
+          "name": "APTO ALM. PADILLA - AUTOM [15065180]",
+          "ele": 4.0,
+          "lat": 11.529611111111,
+          "lon": -72.917666666667
+        },
+        {
+          "code": 15065190,
+          "name": "MONGUI AUTOMATICA [15065190]",
+          "ele": 60.0,
+          "lat": 11.226777777778,
+          "lon": -72.820638888889
+        },
+        {
+          "code": 800350,
+          "name": "ALMIRANTE PADILLA",
+          "ele": 13.1,
+          "lat": 11.526,
+          "lon": -72.926
+        },
+        {
+          "code": 15067220,
+          "name": "PTE CARRETERA AUTOM [15067220]",
+          "ele": 7.0,
+          "lat": 11.510972222222,
+          "lon": -72.855944444444
+        },
+        {
+          "code": 15065010,
+          "name": "APTO ALM. PADILLA [15065010]",
+          "ele": 4.0,
+          "lat": 11.529611111111,
+          "lon": -72.917666666667
+        }
+      ]
+    },
+    {
+      "name": "PUERTO CARREÑO",
+      "ele": 53.72,
+      "lat": 6.18503150761576,
+      "lon": -67.4984208441818,
+      "stations": [
+        {
+          "code": 801390,
+          "name": "PUERTO CARRENO",
+          "ele": 53.9,
+          "lat": 6.185,
+          "lon": -67.493
+        }
+      ]
+    },
+    {
+      "name": "SANTA MARTA",
+      "ele": 8.09,
+      "lat": 11.24568,
+      "lon": -74.186383,
+      "stations": [
+        {
+          "code": 29065130,
+          "name": "LA GRAN VIA AUTOMATICA [29065130]",
+          "ele": 30.0,
+          "lat": 10.85,
+          "lon": -74.133333333333
+        },
+        {
+          "code": 15015120,
+          "name": "UNIV TECNOLOGICA DEL MAGDALENA AUTOMATICA [15015120]",
+          "ele": 7.0,
+          "lat": 11.223055555556,
+          "lon": -74.185916666667
+        },
+        {
+          "code": 800090,
+          "name": "SIMON BOLIVAR",
+          "ele": 6.7,
+          "lat": 11.12,
+          "lon": -74.231
+        }
+      ]
+    },
+    {
+      "name": "BARRANQUILLA",
+      "ele": 84.87,
+      "lat": 10.976521601973,
+      "lon": -74.810073845931,
+      "stations": [
+        {
+          "code": 800280,
+          "name": "ERNESTO CORTISSOZ",
+          "ele": 29.9,
+          "lat": 10.89,
+          "lon": -74.781
+        },
+        {
+          "code": 29045190,
+          "name": "A.E.CORTISSOZ AUTOM   [29045190]",
+          "ele": 14.0,
+          "lat": 10.917777777778,
+          "lon": -74.779722222222
+        },
+        {
+          "code": 29045000,
+          "name": "SABANALARGA AUTOMATICA [29045000]",
+          "ele": 100.0,
+          "lat": 10.636722222222,
+          "lon": -74.918888888889
+        },
+        {
+          "code": 29047000,
+          "name": "TEBSA BQUILLA AUTOMATICA [29047000]",
+          "ele": 6.0,
+          "lat": 10.936638888889,
+          "lon": -74.759888888889
+        }
+      ]
+    },
+    {
+      "name": "VALLEDUPAR",
+      "ele": 174.88,
+      "lat": 10.4811574128405,
+      "lon": -73.2488861012257,
+      "stations": [
+        {
+          "code": 28035060,
+          "name": "FEDEARROZ AUTOMATICA [28035060]",
+          "ele": 184.0,
+          "lat": 10.463611111111,
+          "lon": -73.248055555556
+        },
+        {
+          "code": 28025502,
+          "name": "APTO ALFONSO LOPEZ - AUTOM [28025502]",
+          "ele": 138.0,
+          "lat": 10.436166666667,
+          "lon": -73.247666666667
+        },
+        {
+          "code": 800360,
+          "name": "ALFONSO LOPEZ PUMAREJO",
+          "ele": 147.2,
+          "lat": 10.435,
+          "lon": -73.25
+        }
+      ]
+    },
+    {
+      "name": "CARTAGENA",
+      "ele": 1.71,
+      "lat": 10.4141848285285,
+      "lon": -75.4934,
+      "stations": [
+        {
+          "code": 800220,
+          "name": "RAFAEL NUNEZ",
+          "ele": 1.2,
+          "lat": 10.442,
+          "lon": -75.513
+        },
+        {
+          "code": 29035000,
+          "name": "SINCERIN [29035000]",
+          "ele": 10.0,
+          "lat": 10.142583333333,
+          "lon": -75.278277777778
+        },
+        {
+          "code": 14015020,
+          "name": "APTO RAFAEL NUNEZ [14015020]",
+          "ele": 2.0,
+          "lat": 10.44725,
+          "lon": -75.516027777778
+        },
+        {
+          "code": 14019030,
+          "name": "ESC NAVAL CIOH AUTOM [14019030]",
+          "ele": 1.0,
+          "lat": 10.390563888889,
+          "lon": -75.533830555556
+        },
+        {
+          "code": 29035200,
+          "name": "REPELON AUTOM   [29035200]",
+          "ele": 10.0,
+          "lat": 10.49,
+          "lon": -75.126944444444
+        }
+      ]
+    },
+    {
+      "name": "SINCELEJO",
+      "ele": 215.82,
+      "lat": 9.30674850020716,
+      "lon": -75.3977050716558,
+      "stations": [
+        {
+          "code": 25025280,
+          "name": "EL TESORO IDEAM AUTOMATICA [25025280]",
+          "ele": 168.0,
+          "lat": 9.357083333333,
+          "lon": -75.28925
+        },
+        {
+          "code": 25025350,
+          "name": "PUERTA ROJA AUTOMATICA [25025350]",
+          "ele": 160.0,
+          "lat": 9.316388888889,
+          "lon": -75.3875
+        }
+      ]
+    },
+    {
+      "name": "MONTERÍA",
+      "ele": 16.37,
+      "lat": 8.75979434523211,
+      "lon": -75.8873443539833,
+      "stations": [
+        {
+          "code": 13035501,
+          "name": "APTO LOS GARZONES AUTOM [13035501]",
+          "ele": 20.0,
+          "lat": 8.825833333333,
+          "lon": -75.825138888889
+        },
+        {
+          "code": 800630,
+          "name": "LOS GARZONES",
+          "ele": 11.0,
+          "lat": 8.824,
+          "lon": -75.826
+        },
+        {
+          "code": 13067020,
+          "name": "MONTERIA  AUTOMATICA [13067020]",
+          "ele": 15.0,
+          "lat": 8.751611111111,
+          "lon": -75.892416666667
+        }
+      ]
+    },
+    {
+      "name": "CÚCUTA",
+      "ele": 292.79,
+      "lat": 7.90247689761443,
+      "lon": -72.4978942798224,
+      "stations": [
+        {
+          "code": 800970,
+          "name": "CAMILO DAZA",
+          "ele": 334.1,
+          "lat": 7.928,
+          "lon": -72.512
+        },
+        {
+          "code": 16015110,
+          "name": "UNIV FRANCISO DE PAULA AUTOMATICA [16015110]",
+          "ele": 311.0,
+          "lat": 7.898777777778,
+          "lon": -72.487166666667
+        },
+        {
+          "code": 16015501,
+          "name": "APTO CAMILO DAZA AUTOM [16015501]",
+          "ele": 313.0,
+          "lat": 7.931611111111,
+          "lon": -72.51125
+        }
+      ]
+    },
+    {
+      "name": "BUCARAMANGA",
+      "ele": 941.45,
+      "lat": 7.10514174981263,
+      "lon": -73.1169967580292,
+      "stations": [
+        {
+          "code": 23195230,
+          "name": "NEOMUNDO AUTOMATICA [23195230]",
+          "ele": 970.0,
+          "lat": 7.102611111111,
+          "lon": -73.107305555556
+        }
+      ]
+    },
+    {
+      "name": "QUIBDÓ",
+      "ele": 30.42,
+      "lat": 5.69765721835433,
+      "lon": -76.6550674371715,
+      "stations": [
+        {
+          "code": 55015010,
+          "name": "PIE DE PATO AUTOM [55015010]",
+          "ele": 40.0,
+          "lat": 5.521083333333,
+          "lon": -76.973166666667
+        },
+        {
+          "code": 801440,
+          "name": "EL CARANO",
+          "ele": 62.2,
+          "lat": 5.691,
+          "lon": -76.641
+        },
+        {
+          "code": 54017040,
+          "name": "TADO AUTOM   [54017040]",
+          "ele": 95.0,
+          "lat": 5.265111111111,
+          "lon": -76.56275
+        },
+        {
+          "code": 11037030,
+          "name": "LA LOMA PUEBLO NUEVO AUTOMATICA[11037030]",
+          "ele": 72.0,
+          "lat": 5.584666666667,
+          "lon": -76.753277777778
+        },
+        {
+          "code": 11047040,
+          "name": "QUIBDO AUTOMATICA [11047040]",
+          "ele": 21.0,
+          "lat": 5.697991666667,
+          "lon": -76.662258333333
+        }
+      ]
+    },
+    {
+      "name": "TUNJA",
+      "ele": 2855.82,
+      "lat": 5.53439151336481,
+      "lon": -73.3705444265837,
+      "stations": []
+    },
+    {
+      "name": "YOPAL",
+      "ele": 357.77,
+      "lat": 5.34929143474913,
+      "lon": -72.4030380177448,
+      "stations": [
+        {
+          "code": 35215020,
+          "name": "APTO YOPAL AUTOMATICA [35215020]",
+          "ele": 325.0,
+          "lat": 5.320444444444,
+          "lon": -72.3875
+        },
+        {
+          "code": 802226,
+          "name": "EL YOPAL",
+          "ele": 313.3,
+          "lat": 5.319,
+          "lon": -72.384
+        },
+        {
+          "code": 35217060,
+          "name": "PLAYON EL   [35217060]",
+          "ele": 271.0,
+          "lat": 5.5405,
+          "lon": -72.231722222222
+        }
+      ]
+    },
+    {
+      "name": "MANIZALES",
+      "ele": 2131.76,
+      "lat": 5.06215297270668,
+      "lon": -75.4956207208922,
+      "stations": [
+        {
+          "code": 801490,
+          "name": "LA NUBIA",
+          "ele": 2094.3,
+          "lat": 5.03,
+          "lon": -75.465
+        },
+        {
+          "code": 26155230,
+          "name": "EMAS AUTOM   [26155230]",
+          "ele": 2211.0,
+          "lat": 5.08525,
+          "lon": -75.507138888889
+        }
+      ]
+    },
+    {
+      "name": "PEREIRA",
+      "ele": 1403.41,
+      "lat": 4.80875073958159,
+      "lon": -75.6927413874063,
+      "stations": [
+        {
+          "code": 802100,
+          "name": "MATECANA",
+          "ele": 1346.0,
+          "lat": 4.813,
+          "lon": -75.74
+        },
+        {
+          "code": 26125290,
+          "name": "ARMENIA AUTOM   [26125290]",
+          "ele": 1485.0,
+          "lat": 4.531583333333,
+          "lon": -75.690694444444
+        },
+        {
+          "code": 26125710,
+          "name": "APTO MATECAÑA AUTOM [26125710]",
+          "ele": 1342.0,
+          "lat": 4.812675,
+          "lon": -75.739519444444
+        }
+      ]
+    },
+    {
+      "name": "SANTA FE DE BOGOTÁ",
+      "ele": 2553.92,
+      "lat": 4.64730178409559,
+      "lon": -74.0962676933192,
+      "stations": [
+        {
+          "code": 802223,
+          "name": "GUAYMARAL",
+          "ele": 2557.3,
+          "lat": 4.812,
+          "lon": -74.065
+        },
+        {
+          "code": 21205012,
+          "name": "UNIV NACIONAL AUTOMATICA [21205012]",
+          "ele": 2556.0,
+          "lat": 4.638083333333,
+          "lon": -74.089083333333
+        },
+        {
+          "code": 21205791,
+          "name": "APTO EL DORADO AUTOMATICA [21205791]",
+          "ele": 2547.0,
+          "lat": 4.705583333333,
+          "lon": -74.150666666667
+        },
+        {
+          "code": 21206960,
+          "name": "IDEAM BOGOTA AUTOMATICA [21206960]",
+          "ele": 2646.0,
+          "lat": 4.6,
+          "lon": -74.066666666667
+        },
+        {
+          "code": 21206990,
+          "name": "TIBAITATA AUTOMATICA [21206990]",
+          "ele": 2543.0,
+          "lat": 4.691416666667,
+          "lon": -74.209
+        },
+        {
+          "code": 21206600,
+          "name": "NUEVA GENERACION AUTOMATICA[21206600]",
+          "ele": 2590.0,
+          "lat": 4.782222222222,
+          "lon": -74.094333333333
+        },
+        {
+          "code": 802220,
+          "name": "ELDORADO INTL",
+          "ele": 2548.4,
+          "lat": 4.702,
+          "lon": -74.147
+        }
+      ]
+    },
+    {
+      "name": "IBAGUÉ",
+      "ele": 1081.15,
+      "lat": 4.43642770342414,
+      "lon": -75.1916503839093,
+      "stations": []
+    },
+    {
+      "name": "ARMENIA",
+      "ele": 1390.23,
+      "lat": 4.52924357940428,
+      "lon": -75.6995544367078,
+      "stations": [
+        {
+          "code": 802100,
+          "name": "MATECANA",
+          "ele": 1346.0,
+          "lat": 4.813,
+          "lon": -75.74
+        },
+        {
+          "code": 26125290,
+          "name": "ARMENIA AUTOM   [26125290]",
+          "ele": 1485.0,
+          "lat": 4.531583333333,
+          "lon": -75.690694444444
+        },
+        {
+          "code": 26125710,
+          "name": "APTO MATECAÑA AUTOM [26125710]",
+          "ele": 1342.0,
+          "lat": 4.812675,
+          "lon": -75.739519444444
+        },
+        {
+          "code": 21217180,
+          "name": "MONTEZUMA [21217180]",
+          "ele": 1450.0,
+          "lat": 4.482055555556,
+          "lon": -75.286055555556
+        }
+      ]
+    },
+    {
+      "name": "VILLAVICENCIO",
+      "ele": 488.77,
+      "lat": 4.15730725820001,
+      "lon": -73.6374282767513,
+      "stations": [
+        {
+          "code": 802340,
+          "name": "VANGUARDIA",
+          "ele": 424.9,
+          "lat": 4.168,
+          "lon": -73.614
+        },
+        {
+          "code": 35037100,
+          "name": "PTE ABADIA AUTOMATICA [35037100]",
+          "ele": 523.0,
+          "lat": 4.235333333333,
+          "lon": -73.635361111111
+        },
+        {
+          "code": 35035100,
+          "name": "ICA VILLAVICENCIO AUTOMATICA [35035100]",
+          "ele": 444.0,
+          "lat": 4.137388888889,
+          "lon": -73.625
+        }
+      ]
+    },
+    {
+      "name": "INÍRIDA",
+      "ele": 93.76,
+      "lat": 3.87209974163615,
+      "lon": -67.9234162417424,
+      "stations": [
+        {
+          "code": 31095030,
+          "name": "PTO INIRIDA AUTOMATICA [31095030]",
+          "ele": 100.0,
+          "lat": 3.867666666667,
+          "lon": -67.931694444444
+        }
+      ]
+    },
+    {
+      "name": "CALI",
+      "ele": 960.39,
+      "lat": 3.4262827544158,
+      "lon": -76.5242004326088,
+      "stations": [
+        {
+          "code": 26085170,
+          "name": "BASE AEREA MFS  [26085170]",
+          "ele": 975.0,
+          "lat": 3.4545,
+          "lon": -76.499722222222
+        },
+        {
+          "code": 26075150,
+          "name": "A.A.BONILLA AUTOM   [26075150]",
+          "ele": 961.0,
+          "lat": 3.532991666667,
+          "lon": -76.3825
+        },
+        {
+          "code": 26055120,
+          "name": "UNIV DEL VALLE  [26055120]",
+          "ele": 996.0,
+          "lat": 3.378,
+          "lon": -76.533888888889
+        },
+        {
+          "code": 802590,
+          "name": "ALFONSO BONILLA ARAGON INTL",
+          "ele": 963.8,
+          "lat": 3.543,
+          "lon": -76.382
+        }
+      ]
+    },
+    {
+      "name": "NEIVA",
+      "ele": 444.86,
+      "lat": 2.92287003097258,
+      "lon": -75.2795181206766,
+      "stations": [
+        {
+          "code": 803150,
+          "name": "BENITO SALAS",
+          "ele": 446.2,
+          "lat": 2.95,
+          "lon": -75.294
+        },
+        {
+          "code": 21115020,
+          "name": "APTO BENITO SALAS [21115020]",
+          "ele": 439.0,
+          "lat": 2.94875,
+          "lon": -75.293055555556
+        },
+        {
+          "code": 21115010,
+          "name": "DESIERTO LA TATACOA AUTOMATICA [21115010]",
+          "ele": 459.0,
+          "lat": 3.234472222222,
+          "lon": -75.168194444444
+        },
+        {
+          "code": 21097070,
+          "name": "PTE SANTANDER AUTOM [21097070]",
+          "ele": 431.0,
+          "lat": 2.942611111111,
+          "lon": -75.308527777778
+        }
+      ]
+    },
+    {
+      "name": "SAN JOSÉ DEL GUAVIARE",
+      "ele": 184.75,
+      "lat": 2.55345117149258,
+      "lon": -72.6408996512117,
+      "stations": [
+        {
+          "code": 803220,
+          "name": "JORGE E GONZALEZ TORRES",
+          "ele": 184.4,
+          "lat": 2.58,
+          "lon": -72.639
+        },
+        {
+          "code": 690186,
+          "name": "SAN JOSE DEL GUAVIA",
+          "ele": 184.0,
+          "lat": 2.567,
+          "lon": -72.633
+        },
+        {
+          "code": 32105080,
+          "name": "SAN JOSE DEL GUAVIARE AUTOMATICA [32105080]",
+          "ele": 165.0,
+          "lat": 2.553027777778,
+          "lon": -72.647083333333
+        }
+      ]
+    },
+    {
+      "name": "POPAYÁN",
+      "ele": 1722.66,
+      "lat": 2.44800483276533,
+      "lon": -76.6146545340209,
+      "stations": [
+        {
+          "code": 803080,
+          "name": "GUILLERMO LEON VALENCIA",
+          "ele": 1733.4,
+          "lat": 2.454,
+          "lon": -76.609
+        },
+        {
+          "code": 26035100,
+          "name": "HDA SUECIA AUTOMATICA [26035100]",
+          "ele": 1755.0,
+          "lat": 2.479555555556,
+          "lon": -76.82775
+        }
+      ]
+    },
+    {
+      "name": "FLORENCIA",
+      "ele": 323.43,
+      "lat": 1.62437259256993,
+      "lon": -75.6221694878188,
+      "stations": [
+        {
+          "code": 803540,
+          "name": "FLORENCIA/CAPITOLIO",
+          "ele": 244.0,
+          "lat": 1.6,
+          "lon": -75.533
+        },
+        {
+          "code": 44035050,
+          "name": "MACAGUAL AUTOMATICA [44035050]",
+          "ele": 280.0,
+          "lat": 1.499722222222,
+          "lon": -75.661
+        }
+      ]
+    },
+    {
+      "name": "MITU",
+      "ele": 171.72,
+      "lat": 1.26443671261389,
+      "lon": -70.2254562360183,
+      "stations": [
+        {
+          "code": 803610,
+          "name": "FABIO ALBERTO LEON BENTLEY",
+          "ele": 207.3,
+          "lat": 1.254,
+          "lon": -70.234
+        },
+        {
+          "code": 42077020,
+          "name": "MITU AUTOMATICA [42077020]",
+          "ele": 180.0,
+          "lat": 1.259555555556,
+          "lon": -70.239111111111
+        }
+      ]
+    },
+    {
+      "name": "MOCOA",
+      "ele": 648.63,
+      "lat": 1.1748987346326,
+      "lon": -76.642051689641,
+      "stations": [
+        {
+          "code": 44015060,
+          "name": "ACDTO MOCOA AUTOM  [44015060]",
+          "ele": 650.0,
+          "lat": 1.157333333333,
+          "lon": -76.651833333333
+        }
+      ]
+    },
+    {
+      "name": "PASTO",
+      "ele": 2556.29,
+      "lat": 1.21371002531483,
+      "lon": -77.2847466015938,
+      "stations": [
+        {
+          "code": 52045080,
+          "name": "UNIV DE NARIÑO  [52045080]",
+          "ele": 2626.0,
+          "lat": 1.225111111111,
+          "lon": -77.283388888889
+        }
+      ]
+    },
+    {
+      "name": "SAN ANDRES",
+      "ele": 34.73,
+      "lat": 12.58197,
+      "lon": -81.704725,
+      "stations": [
+        {
+          "code": 17015010,
+          "name": "APTO SESQUICENTEN   [17015010]",
+          "ele": 1.0,
+          "lat": 12.542183333333,
+          "lon": -81.730969444444
+        },
+        {
+          "code": 17019010,
+          "name": "SAN ANDRES AUTOMATICA [17019010]",
+          "ele": 1.0,
+          "lat": 12.556111111111,
+          "lon": -81.703388888889
+        }
+      ]
+    }
+  ]
+}

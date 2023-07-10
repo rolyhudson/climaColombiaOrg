@@ -1,0 +1,10 @@
+[13-Apr-2019 16:42:42 UTC] PHP Notice:  Undefined variable: lister in /home/climacol/public_html/data/epw/rc2_0/graphs/resources/themes/bootstrap/index.php on line 7
+[13-Apr-2019 16:42:42 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getListedPath() on null in /home/climacol/public_html/data/epw/rc2_0/graphs/resources/themes/bootstrap/index.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/climacol/public_html/data/epw/rc2_0/graphs/resources/themes/bootstrap/index.php on line 7
+[11-Jun-2019 01:02:41 UTC] PHP Notice:  Undefined variable: lister in /home/climacol/public_html/data/epw/rc2_0/graphs/resources/themes/bootstrap/index.php on line 7
+[11-Jun-2019 01:02:41 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getListedPath() on null in /home/climacol/public_html/data/epw/rc2_0/graphs/resources/themes/bootstrap/index.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/climacol/public_html/data/epw/rc2_0/graphs/resources/themes/bootstrap/index.php on line 7

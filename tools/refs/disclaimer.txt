@@ -1,0 +1,32 @@
+
+Third Party Data Provider Disclaimers and Copyright Notices
+This Service incorporates information sourced from Third Party Data Providers. Set out below are disclaimer and copyright notices of Third Party Data Providers that apply to their information.  Not all end users of this Service will have access to information or data provided by all of the Third Party Data Providers listed below.
+
+All Third Party Data Providers have exclusive proprietary rights in their respective information and data.
+
+Third Party Data is provided by third parties beyond our control and we do not take responsibility for its content or for any delays, interruptions or errors in it.
+
+General
+The data is provided to end users of the Service on an "as is" basis. The Technology Owner, the Licensor, the Third Party Data Providers and any other third party involved in or related to the making or compiling of any of the data make no representations or warranties of any kind, either express or implied, with respect to the data (or the results to be obtained by the use thereof) including, without limiting the generality of the foregoing, any and all warranties of originality, accuracy, timeliness, completeness, non-infringement, merchantability and fitness for any particular purpose.
+
+Each user of the Service assumes the entire risk of any use the end user may make of the data. In no event shall  the Technology Owner, the Licensor, the Third Party Data Providers and any other third party involved in or related to the making or compiling of any of the data, be liable to the end user, or any other person, for any direct or indirect damages, including, without limitation, any lost profits, lost savings or other incidental or consequential damages arising out of this agreement or the inability of the customer to use the data, regardless of the form of action, even if licensee, any of its information providers, or any other third party involved in or related to the making or compiling of any of the data has been advised of or otherwise might have anticipated the possibility of such damages.
+
+You shall not use or permit anyone to use the data for any unlawful or unauthorised purpose.  You are not authorised or permitted to provide the data to any person or firm for reuse or retransmission without prior written approval of the source of the data.
+
+Access to the data is subject to termination in the event that any agreement between the Licensor and a provider of information or software distributed through the data is terminated in accordance with its terms.
+Set out below are specific disclaimers, limitations and copyright notices relating to specific Third Party Data Providers.
+
+IDEAM + NOAA
+Data that is provided by IDEAM + NOAA is provided "as is". Neither the Licensor, IDEAM + NOAA or any third party shall be liable to you or any third party for any loss or damage, direct, indirect or consequential arising from (a) any inaccuracy or incompleteness in, or delays, interruptions, errors or omissions in the delivery of the data or any other information supplied to you through our Services; (b) any decision made or action taken by you or any third party in reliance upon the data.  Nor shall we, clima-colombia.org or any third party be liable for loss of business revenues, lost profits or any punitive, indirect, consequential, special or similar damages whatsoever, whether in contract, tort or otherwise, even if advised of the possibility of such damages incurred by you or any third party.
+
+You may only use the data and information provided by IDEAM + NOAA for your own personal and non-commercial purposes while accessing our Services. You may not copy, distribute or redistribute the data, including by caching, framing or similar means or sell, resell, re-transmit or otherwise make the data retrieved from our services available in any manner to any third party. You may not store the data for the purposes of creating a historical database or historical data product. You may not use any of the data in connection with the issuance, trading, marketing or promotion of investment products (e.g., derivatives, structured products, investment funds, investment portfolios, etc. where the price, return and/or performance of the investment product is based on or related to the data) without a separate written agreement with IDEAM + NOAA.
+
+Glossary
+In these disclaimers and notices, a reference to:
+
+the "Licensor" is a reference to clima-colombia.org which provides the Service either alone or with another provider named in the end user licence agreement between the end users of the Service and the Service Providers.
+
+The" Technology Provider" is a reference to clima-colombia.org, the owner of the proprietary technology used by the Licensor to deliver the Service;
+The "Service" is a reference to the clima-colombia.org synthetic year, and/or any of the components of the clima-colombia.org synthetic year, including but not limited to *.epw files, visualisation tools whether or not distributed under the clima-colombia.org brand or any other name or branding;
+"Data" means any data which is accessed through the use of the Service; and
+"Third Party Data" means Data that is supplied by a person other than the Licensor, including, but not limited to IDEAM, NOAA, Universidad Piloto de Colombia.

@@ -1,0 +1,2 @@
+var cities = ["Barrancabermeja","Barranquilla","Bogota","Bucaramanga","Buenaventura","Cali","Cartagena","Cucuta","Gaviotas","Girardot","Ibague","Ipiales","Leticia","Medellin","Pereira","Quibdo","SanAndresIsla","SantaMarta","Turbo","Valledupar","Villavicencio"];
+var fields =["Dry Bulb Temperature","Humidity","Wind Speed","Wind Direction","Diffuse Radiation","Direct Radiation","Cloud","Rain"];

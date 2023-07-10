@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<!-- HTML5 Boilerplate -->
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+
+<head>
+
+    <meta charset="utf-8">
+    <!-- Always force latest IE rendering engine & Chrome Frame -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+    <title>clima-colombia</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+
+    <meta name="author" content="www.clima-colombia.org">
+
+    <meta http-equiv="cleartype" content="on">
+
+    <link rel="shortcut icon" href="/favicon.ico">
+
+    <!-- Responsive and mobile friendly stuff -->
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="..\..\d3\d3.v4.min.js"></script>
+    <script src="..\..\d3\topojson.v2.min.js"></script>
+    <script src="..\..\d3\d3-scale-chromatic.v1.min.js"></script>
+        
+        <script src ="ideamStationLocation.js" ></script>
+        <script src="..\chartTools.js"></script>
+        <script src="..\mapTools.js"></script>
+        <script src="..\scaleBar.js"></script>
+        <script src="..\readClimaCollection.js"></script>
+        <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Droid Sans Mono">
+    <link href="https://fonts.googleapis.com/css?family=EB+Garamond" rel="stylesheet">
+    <link rel="stylesheet" href="../../cc.css" media="all">
+    <script src = "../../fns.js" ></script>
+        <style type="text/css">
+            
+            .line { 
+            stroke: steelblue;
+            stroke-width: 0;
+            fill: none;
+            }
+           #scale{
+                position: absolute;
+                top:10px;
+              z-index: 10;
+                
+            }
+            #wrapper{
+                overflow: hidden;
+            }
+            
+            #content{
+               font-size: small;
+            }
+            #chart{
+                position: relative;
+                overflow: hidden;
+            }
+             #loading{
+                margin: 0px 40px;
+                height:25px;}
+            h3{
+                display:inline;
+            }
+            .mOver{
+font-size: smaller;
+            }
+            .link{
+                display: none;
+            }
+        </style>
+       
+    </head>
+    <body>
+    <div id = "container">
+    <div id="header">
+    <div id="menu"></div>   
+    </div>
+    <div id="content">
+        <div id = "title"> </div>
+        <div id = "control"></div>
+        <div ><h1 id="loading"></h1></div>
+        <div id = "description"> </div>
+        <div id = "chart"><div id = "scale"></div>
+        
+        
+        
+        <div id = "info"> 
+        
+        </div>
+    </div>
+    <div id="footer"></div>
+</div>
+        
+        <script type="text/javascript">
+            makePage();
+        runMap();
+        </script>
+    </body>
+</html>  
