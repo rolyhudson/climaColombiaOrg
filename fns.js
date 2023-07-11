@@ -612,7 +612,7 @@ function mainPageEquipo() {
   //contentsection.appendChild(a);
   addParagraphToDiv(
     p,
-    "Roland Hudson (Lacunae), Shrikant Sharma (Buro Happold), Paul Shepherd (University of Bath), Rodrigo Velasco (Universidad Piloto)"
+    "Roly Hudson (Lacunae), Shrikant Sharma (Buro Happold), Paul Shepherd (University of Bath), Rodrigo Velasco (Universidad Piloto)"
   );
 
   contentsection.appendChild(p);
