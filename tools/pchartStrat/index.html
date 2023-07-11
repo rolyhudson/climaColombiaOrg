@@ -3,113 +3,135 @@
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+  <!--<![endif]-->
 
-<head>
-
-    <meta charset="utf-8">
+  <head>
+    <meta charset="utf-8" />
     <!-- Always force latest IE rendering engine & Chrome Frame -->
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 
     <title>clima-colombia</title>
-    <meta name="description" content="">
-    <meta name="keywords" content="">
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
 
-    <meta name="author" content="www.clima-colombia.org">
+    <meta name="author" content="www.clima-colombia.org" />
 
-    <meta http-equiv="cleartype" content="on">
+    <meta http-equiv="cleartype" content="on" />
 
-    <link rel="shortcut icon" href="/favicon.ico">
+    <link rel="shortcut icon" href="/favicon.ico" />
 
     <!-- Responsive and mobile friendly stuff -->
-    <meta name="HandheldFriendly" content="True">
-    <meta name="MobileOptimized" content="320">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <script src="..\..\d3\d3.v4.min.js"></script>
-    
-    
-        
-        <script src = "drawPChart.js" ></script>
-        <script src = "..\pchart\psychrometricTools.js" ></script>
-        <script src="..\dataRetrivalAllEpw.js"></script>
-       
-        <script src="..\chartTools.js"></script>
-        <script src = "..\pchart\pmvppdFunction.js" ></script>
-        
-        <script src = "..\pchart\climateBin.js" ></script>
-        <script src = "..\pchart\d3.hexbin.min.js" ></script>
-        <script src = "..\..\fns.js" ></script>
-        <script src = "strategy.js" ></script>
-        <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Droid Sans Mono">
-        <link href="https://fonts.googleapis.com/css?family=EB+Garamond" rel="stylesheet">
-        
-        <style type="text/css">
-            
-            .line { 
-            stroke: steelblue;
-            stroke-width: 0.6;
-            fill: none;
-            }
-            .bound {
-                stroke: OrangeRed;
-            stroke-width: 0.5;
-            fill: none;
-             
-            }
-            #loading{
-                
-                height:25px;}
-             #content{
-                font-size: small;
-             }           
-            #content h3, h5{
-                display:inline;
-            }
-            
-            .strategy{
-            	stroke-width: 2;
-            	fill: none;
-            	 z-index: -1;
-            }
-            .sztext, .mOver,{
-            	font-size: xx-small;
-            }
-			.comfH{
-                font-size: small;
-            }
-            }
-        </style>
-       <link rel="stylesheet" href="..\..\cc.css" media="all">
-    </head>
-    <body>
-<div id = "container">
-    <div id="header">
-        <div id="menu"></div>   
-    </div>
-    <div id="content">
-        <div id = "title"></div>
-        <div id = "control"></div>
-        <div id = "timecontrol"></div>
-        <div id = "binreport"><h1 id="loading">loading data...</h1></div>
-        <div id = "chart"></div>
-        <div id = "comfCalc"> </div>
-        <div id = "variables"> </div>
-        <div id = "results"> </div>
-        <div id = "info">
-        <h3>Description:</h3>
-        Data is from the <a href="https://energyplus.net/weather">EnergyPlus *.epw files collection</a> which represents 68 Countries and 2240 cities. These have been converted to our <a href="/tools/climaschema/">climaJSON format</a> for use online. Using this format the data can be visualised in <a href="/tools/annual2d">2d</a>, <a href="/tools/annual3d">3d</a> and on a <a href="/tools/pchart">psychrometric chart</a>. The full set of converted *.epw files is available <a href="../../data/json/allEPW/">here</a>.
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="MobileOptimized" content="320" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="..\..\d3\d3.v4.min.js"></script>
 
-        Thermal comfort strategies are defined in <a href="https://ideas.repec.org/a/eee/rensus/v49y2015icp736-755.html">F. Manzano-Agugliaro, F.G. Montoya, A. Sabio-Ortega, A. García-Cruz, Review of bioclimatic architecture strategies for achieving thermal comfort, Renew. Sustain. Energy Rev. 49 (2015) 736–755. doi:10.1016/J.RSER.2015.04.095.</a>
+    <script src="drawPChart.js"></script>
+    <script src="..\pchart\psychrometricTools.js"></script>
+    <script src="..\dataRetrivalAllEpw.js"></script>
+
+    <script src="..\chartTools.js"></script>
+    <script src="..\pchart\pmvppdFunction.js"></script>
+
+    <script src="..\pchart\climateBin.js"></script>
+    <script src="..\pchart\d3.hexbin.min.js"></script>
+    <script src="..\..\fns.js"></script>
+    <script src="strategy.js"></script>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="http://fonts.googleapis.com/css?family=Droid Sans Mono"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=EB+Garamond"
+      rel="stylesheet"
+    />
+
+    <style type="text/css">
+      .line {
+        stroke: steelblue;
+        stroke-width: 0.6;
+        fill: none;
+      }
+      .bound {
+        stroke: OrangeRed;
+        stroke-width: 0.5;
+        fill: none;
+      }
+      #loading {
+        height: 25px;
+      }
+      #content {
+        font-size: small;
+      }
+      #content h3,
+      h5 {
+        display: inline;
+      }
+
+      .strategy {
+        stroke-width: 2;
+        fill: none;
+        z-index: -1;
+      }
+      .sztext,
+      .mOver {
+        font-size: xx-small;
+      }
+      .comfH {
+        font-size: small;
+      }
+    </style>
+    <link rel="stylesheet" href="..\..\cc.css" media="all" />
+  </head>
+  <body>
+    <div id="container">
+      <div id="header">
+        <div id="menu"></div>
+      </div>
+      <div id="content">
+        <div id="title"></div>
+        <div id="control"></div>
+        <div id="timecontrol"></div>
+        <div id="binreport"><h1 id="loading">loading data...</h1></div>
+        <div id="chart"></div>
+        <div id="comfCalc"></div>
+        <div id="variables"></div>
+        <div id="results"></div>
+        <div id="info">
+          <h3>Description:</h3>
+          <h3>Description:</h3>
+          Data is from the
+          <a href="https://energyplus.net/weather"
+            >EnergyPlus *.epw files collection</a
+          >
+          which represents 68 Countries and 2240 cities. These have been
+          converted to our
+          <a href="/tools/climaschema/">climaJSON format</a> for use online.
+          Using this format the data can be visualised in
+          <a href="/climaColombiaOrg/tools/annual2d">2d</a>,
+          <a href="/climaColombiaOrg/tools/annual3d">3d</a> and on a
+          <a href="/climaColombiaOrg/tools/pchart">psychrometric chart</a>. The
+          full set of converted *.epw files is available
+          <a href="/climaColombiaOrg/data/json/allEPW/">here</a>. Thermal
+          comfort strategies are defined in
+          <a href="https://ideas.repec.org/a/eee/rensus/v49y2015icp736-755.html"
+            >F. Manzano-Agugliaro, F.G. Montoya, A. Sabio-Ortega, A.
+            García-Cruz, Review of bioclimatic architecture strategies for
+            achieving thermal comfort, Renew. Sustain. Energy Rev. 49 (2015)
+            736–755. doi:10.1016/J.RSER.2015.04.095.</a
+          >
         </div>
+      </div>
+      <div id="footer"></div>
     </div>
-    <div id="footer"></div>
-</div>
-        
-        <script type="text/javascript">
-            makePage();
-            
-            runTool();
-        
-        </script>
-    </body>
-</html>  
+
+    <script type="text/javascript">
+      makePage();
+
+      runTool();
+    </script>
+  </body>
+</html>
