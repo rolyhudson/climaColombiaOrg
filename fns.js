@@ -580,7 +580,7 @@ function mainPageSocios() {
   //add logos
   insertImageAsLink("logos/IDEAM.jpg", "http://www.ideam.gov.co/", p);
   insertImageAsLink("logos/bh.jpg", "https://www.burohappold.com/", a);
-  insertImageAsLink("logos/lacunae.jpg", "http://www.lacunae.io", c);
+  insertImageAsLink("logos/lacunae.JPG", "http://www.lacunae.io", c);
 
   content.appendChild(contentsection);
 }
