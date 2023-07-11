@@ -1,7 +1,7 @@
 var mainimgHeight = 300;
 var contentHeight = 300;
 var menuHFactor = 10;
-var rootPath = "https://rolyhudson.github.io/climaColombiaOrg/";
+var rootPath = "https://rolyhudson.github.io/climaColombiaOrg";
 function makePage() {
   window.addEventListener("resize", resize);
   setAnalytics();
